@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Mohammed Oussama Senan</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+    :root {
+      --primary: #6153cc;
+      --secondary: #3d348b;
+      --light-grey: #f5f5f5;
+      --dark-grey: #333333;
+      --text: #555555;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+      color: var(--text);
+      background: white;
+      line-height: 1.5;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .container {
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 20px;
+      background: white;
+      color: var(--dark-grey);
+    }
+    
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid var(--light-grey);
+      color: var(--dark-grey);
+    }
+    
+    .identity {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--primary);
+    }
+    
+    .name-title h1 {
+      color: var(--primary);
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    
+    .name-title h2 {
+      color: var(--secondary);
+      font-size: 18px;
+      font-weight: 500;
+    }
+    
+    .contact-info {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      font-size: 14px;
+    }
+    
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .contact-item i {
+      color: var(--primary);
+      font-size: 16px;
+    }
+    
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 30px;
+    }
+    
+    .section {
+      margin-bottom: 25px;
+    }
+    
+    .section-title {
+      color: var(--primary);
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid var(--primary);
+    }
+    
+    .timeline-item {
+      margin-bottom: 20px;
+    }
+    
+    .timeline-title {
+      font-weight: 600;
+      font-size: 16px;
+      color: var(--dark-grey);
+      margin-bottom: 5px;
+    }
+    
+    .timeline-period {
+      font-weight: 500;
+      font-size: 14px;
+      color: var(--primary);
+      margin-bottom: 5px;
+    }
+    
+    .timeline-description {
+      font-size: 14px;
+    }
+    
+    .skills-list {
+      list-style: none;
+    }
+    
+    .skill-category {
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    
+    .skill-item {
+      position: relative;
+      padding-left: 15px;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    
+    .skill-item::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+    }
+    
+    .about-text {
+      font-size: 15px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+    
+    .experience-item {
+      margin-bottom: 25px;
+    }
+    
+    .experience-title {
+      font-weight: 600;
+      font-size: 16px;
+      color: var(--dark-grey);
+    }
+    
+    .experience-company {
+      font-weight: 500;
+      font-size: 15px;
+      color: var(--secondary);
+    }
+    
+    .experience-date {
+      font-size: 14px;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    
+    .experience-description {
+      font-size: 14px;
+    }
+    
+    .experience-description ul {
+      padding-left: 20px;
+    }
+    
+    .experience-description li {
+      margin-bottom: 3px;
+    }
+    
+    @media print {
+      body {
+        margin: 0;
+        padding: 0;
+        background: white;
+      }
+      
+      .container {
+        width: 100%;
+        max-width: none;
+        padding: 15mm;
+        margin: 0;
+        box-shadow: none;
+      }
+      
+      .no-print {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- En-tête avec photo et informations personnelles -->
+    <header class="header">
+      <div class="identity">
+        <img src="bella.jpg" alt="Mohammed Oussama Senan" class="photo">
+        <div class="name-title">
+          <h1>Mohammed Oussama Senan</h1>
+          <h2>Restaurant Manager</h2>
+        </div>
+      </div>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i>📍</i>
+          <span>Dakhla, Maroc</span>
+        </div>
+        <div class="contact-item">
+          <i>📱</i>
+          <span>+212698471379</span>
+        </div>
+        <div class="contact-item">
+          <i>📧</i>
+          <span>Senanmoussama46@gmail.com</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <!-- Colonne de gauche -->
+      <div class="left-column">
+        <!-- À propos -->
+        <section class="section">
+          <h3 class="section-title">À propos</h3>
+          <div class="about-text">
+            Chef de salle fiable avec une décennie d'expérience professionnelle. L'expérience avérée de succès satisfaire les clients et assure le fonctionnement efficace du restaurant tout en tenant le personnel, la clientèle et de gestion/service impeccables et de groupe.
+          </div>
+        </section>
+
+        <!-- Formation -->
+        <section class="section">
+          <h3 class="section-title">Formation</h3>
+          
+          <div class="timeline-item">
+            <div class="timeline-title">DIPLÔME Institut Technique de l'Hôtellerie et du Tourisme</div>
+            <div class="timeline-period">2016 - 2018</div>
+            <div class="timeline-description">ISTIA-DAKHLA</div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-title">Baccalauréat</div>
+            <div class="timeline-period">2015 - 2016</div>
+            <div class="timeline-description">Lycée Al-Fath, Dakhla</div>
+          </div>
+        </section>
+
+        <!-- Compétences -->
+        <section class="section">
+          <h3 class="section-title">Compétences</h3>
+          <ul class="skills-list">
+            <li class="skill-item">Travail en équipe</li>
+            <li class="skill-item">Formation des nouveaux employés</li>
+            <li class="skill-item">Gestion du stress</li>
+            <li class="skill-item">Gestion de la caisse</li>
+            <li class="skill-item">Communication professionnelle</li>
+            <li class="skill-item">Gestion de stock</li>
+          </ul>
+        </section>
+
+        <!-- Langues -->
+        <section class="section">
+          <h3 class="section-title">Langues</h3>
+          <ul class="skills-list">
+            <li class="skill-item">Français : Courant</li>
+            <li class="skill-item">Anglais : Intermédiaire</li>
+            <li class="skill-item">Arabe : Langue maternelle</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Colonne de droite -->
+      <div class="right-column">
+        <!-- Expérience professionnelle -->
+        <section class="section">
+          <h3 class="section-title">Expérience professionnelle</h3>
+          
+          <div class="experience-item">
+            <div class="experience-title">CHEF DE SALLE</div>
+            <div class="experience-company">Dakhla, Maroc</div>
+            <div class="experience-date">03/2023 - Présent</div>
+            <div class="experience-description">
+              <ul>
+                <li>Émotionnellement mature avec d'excellentes compétences en communication</li>
+                <li>Une capacité démontrée à effectuer plusieurs tâches à la fois</li>
+                <li>Restez calme sous la pression</li>
+                <li>Capable de travailler les week-ends et jours fériés</li>
+                <li>Effectuer les tâches de clôture, y compris le nettoyage, la désinfection et réaliser la prévision</li>
+                <li>Création de la fiche technique des cocktails</li>
+                <li>Gestion des approvisionnements nécessaires pour le service en salle : nappes, couverts, décoration, vin, alcool, café...</li>
+                <li>Gestion de stock, des bars, contrôle quotidien, cadrage de stock mensuel</li>
+                <li>Transmission des savoirs, assure la communication, la cohésion et la motivation au sein de son équipe</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-title">Superviseur de restaurant</div>
+            <div class="experience-company">La Crique Nature & Spa (DAKHLA HOSPITALITY GRP)</div>
+            <div class="experience-date">03/2022 - 01/2023</div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-title">Senior Bartender</div>
+            <div class="experience-company">La Crique Nature & Spa (DAKHLA HOSPITALITY GRP)</div>
+            <div class="experience-date">11/2019 - 03/2022</div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-title">Senior Bartender & chef de rang</div>
+            <div class="experience-company">PK25Dakhla (DAKHLA HOSPITALITY GRP)</div>
+            <div class="experience-date">02/2019 - 10/2019</div>
+            <div class="experience-description">
+              <ul>
+                <li>Émotionnellement mature avec d'excellentes compétences en communication</li>
+                <li>Une capacité démontrée à effectuer plusieurs tâches à la fois</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-title">Junior Bartender</div>
+            <div class="experience-company">Zenith Dakhla Kite Ressort</div>
+            <div class="experience-date">04/2018 - 01/2019</div>
+            <div class="experience-description">
+              <ul>
+                <li>Maintenir une connaissance complète des éléments du bar et du menu et faire des recommandations</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="experience-item">
+            <div class="experience-title">Commis de rang</div>
+            <div class="experience-company">DAKHLA SPIRIT CAMP</div>
+            <div class="experience-date">01/2017 - 03/2018</div>
+            <div class="experience-description">
+              <ul>
+                <li>Développement des compétences de base du barman en observant le chef</li>
+                <li>Interagir avec les clients de manière professionnelle et mettre en pratique les compétences en communication professionnelle</li>
+                <li>Fournir un excellent service client à tous les invités à tout moment, en accordant une attention particulière au remplissage précis des commandes et des boissons</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+    <!-- Bouton d'impression - visible uniquement à l'écran -->
+    <div class="no-print" style="text-align: center; margin-top: 30px;">
+      <button onclick="window.print()" style="padding: 10px 20px; background: var(--primary); color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: 500;">
+        Imprimer / Enregistrer en PDF
+      </button>
+    </div>
+  </div>
+</body>
+</html> 

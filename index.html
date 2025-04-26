@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<!-- 
+  CV de Mohammed Oussama Senan - Mis à jour le 25/04/2025
+-->
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Oussama Senan - CV</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="bella.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Ajout de styles pour corriger la couleur du texte */
+    .sidebar-info .name {
+      color: white;
+    }
+    
+    .sidebar-info .title {
+      color: white;
+    }
+
+    .sidebar-info_more {
+      color: white;
+    }
+
+    .contact-title {
+      color: white;
+    }
+
+    .contact-info address, 
+    .contact-info a,
+    .contact-info p {
+      color: white;
+    }
+
+    .navbar-link {
+      color: white;
+    }
+
+    .info_more-btn span {
+      color: white;
+    }
+
+    .testimonials-item-title, 
+    .testimonials-text p {
+      color: white;
+    }
+
+    /* Correction pour les liens de contact */
+    .contact-link {
+      color: white !important;
+    }
+
+    /* Modifications pour la section CV et expérience professionnelle */
+    article.resume {
+      color: white;
+    }
+
+    .article-title {
+      color: white;
+    }
+
+    .h3 {
+      color: white;
+    }
+
+    .timeline-item-title {
+      color: white;
+    }
+
+    .timeline-text, .timeline-text ul li {
+      color: white;
+    }
+
+    .timeline-list span {
+      color: white;
+    }
+
+    .skills-title {
+      color: white;
+    }
+
+    .skills-item .title-wrapper h5 {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="bella.jpg" alt="Mohammed Oussama Senan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mohammed Oussama Senan">Mohammed<br> Oussama Senan</h1>
+
+          <p class="title">Restaurant Manager</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Afficher les contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Adresse</p>
+              <address>Dakhla, Maroc</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+              <a href="tel:+212698471379" class="contact-link">+212698471379</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:Senanmoussama46@gmail.com" class="contact-link">Senanmoussama46@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="flag-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Nationalité</p>
+              <p>Marocaine</p>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <!-- Bouton de téléchargement CV PDF -->
+        <div class="cv-download-container">
+          <a href="cv-print.html" target="_blank" class="cv-download-btn">
+            <ion-icon name="print-outline"></ion-icon>
+            <span>Imprimer CV</span>
+          </a>
+        </div>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>À propos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="à propos">
+        <header>
+          <h2 class="h2 article-title">À propos de moi</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Chef de salle fiable avec une décennie d'expérience professionnelle.
+          </p>
+          <p>
+            L'expérience avérée de succès satisfaire les clients et assure le fonctionnement efficace du restaurant tout en tenant le personnel, la clientèle et de gestion/service impeccables et de groupe.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">Mes compétences</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="people-outline" width="40"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gestion d'équipe</h4>
+                <p class="service-item-text">
+                  Travail en équipe, formation des nouveaux employés
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="restaurant-outline" width="40"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Service de restauration</h4>
+                <p class="service-item-text">
+                  Gestion de salle, accueil et satisfaction client
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="document-text-outline" width="40"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Administration</h4>
+                <p class="service-item-text">
+                  Gestion de stock, gestion de la caisse
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="chatbubble-outline" width="40"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Communication</h4>
+                <p class="service-item-text">
+                  Excellentes compétences en communication et gestion du stress
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Langues</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <h4 class="h4 testimonials-item-title">Français</h4>
+                <div class="testimonials-text">
+                  <p>Courant</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <h4 class="h4 testimonials-item-title">Anglais</h4>
+                <div class="testimonials-text">
+                  <p>Intermédiaire</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <h4 class="h4 testimonials-item-title">Arabe</h4>
+                <div class="testimonials-text">
+                  <p>Langue maternelle</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DIPLÔME Institut Technique de l'Hôtellerie et du Tourisme</h4>
+
+              <span>2016 — 2018 • ISTIA-DAKHLA</span>
+
+              <p class="timeline-text">
+                Formation en hôtellerie et tourisme
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Baccalauréat</h4>
+
+              <span>2015 — 2016 • Lycée Al-Fath, Dakhla</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience professionnelle</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CHEF DE SALLE</h4>
+
+              <span>03/2023 — Présent • Dakhla, Maroc</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li>Émotionnellement mature avec d'excellentes compétences en communication</li>
+                  <li>Une capacité démontrée à effectuer plusieurs tâches à la fois</li>
+                  <li>Restez calme sous la pression</li>
+                  <li>Capable de travailler les week-ends et jours fériés</li>
+                  <li>Effectuer les tâches de clôture, y compris le nettoyage, la désinfection et réaliser la prévision</li>
+                  <li>Création de la fiche technique des cocktails</li>
+                  <li>Gestion des approvisionnements nécessaires pour le service en salle : nappes, couverts, décoration, vin, alcool, café...</li>
+                  <li>Gestion de stock, des bars, contrôle quotidien, cadrage de stock mensuel</li>
+                  <li>Transmission des savoirs, assure la communication, la cohésion et la motivation au sein de son équipe</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Superviseur de restaurant</h4>
+
+              <span>03/2022 — 01/2023 • La Crique Nature & Spa (DAKHLA HOSPITALITY GRP)</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Bartender</h4>
+
+              <span>11/2019 — 03/2022 • La Crique Nature & Spa (DAKHLA HOSPITALITY GRP)</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Bartender & chef de rang</h4>
+
+              <span>02/2019 — 10/2019 • PK25Dakhla (DAKHLA HOSPITALITY GRP)</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li>Émotionnellement mature avec d'excellentes compétences en communication</li>
+                  <li>Une capacité démontrée à effectuer plusieurs tâches à la fois</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Bartender</h4>
+
+              <span>04/2018 — 01/2019 • Zenith Dakhla Kite Ressort</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li>Maintenir une connaissance complète des éléments du bar et du menu et faire des recommandations</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Commis de rang</h4>
+
+              <span>01/2017 — 03/2018 • DAKHLA SPIRIT CAMP</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li>Développement des compétences de base du barman en observant le chef</li>
+                  <li>Interagir avec les clients de manière professionnelle et mettre en pratique les compétences en communication professionnelle</li>
+                  <li>Fournir un excellent service client à tous les invités à tout moment, en accordant une attention particulière au remplissage précis des commandes et des boissons</li>
+                </ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Compétences</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Travail en équipe</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Former les nouveaux employés</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Gestion du stress</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Gestion de la caisse</h5>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224624.56622206836!2d-15.995702726562506!3d23.72408229999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc22c62d3e4ad8b3%3A0xedf4cad3f40c4252!2sDakhla!5e0!3m2!1sfr!2sma!4v1650887953620!5m2!1sfr!2sma" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulaire de contact</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom complet" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Adresse email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
